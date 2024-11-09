@@ -374,7 +374,7 @@ vim run.sh
 
 ```bash
 apachectl
-mysqld_safe --skip-grant-tables --general-log & 
+mariadbd-safe --skip-grant-tables --general-log & 
 ```
 
 Сохраним и закроем файл, после чего создадим скрипт `end.sh`, который будет закрывать наш сервер:
