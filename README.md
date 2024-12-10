@@ -186,7 +186,7 @@ DocumentRoot "/data/data/com.termux/files/home/Web"
 ```
 
 #
-Переходим с следующему кусочку, ищем `dir_mo` и редактируем кусочек:
+Переходим к следующему кусочку, ищем `dir_mo` и редактируем кусочек:
 ```bash
 <IfModule dir_module>
     DirectoryIndex index.html
